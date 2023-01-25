@@ -11,7 +11,6 @@ public class TestarMetodo {
 
         Conta contaDaMarcela = new Conta();
         contaDaMarcela.deposita(1000);
-
         boolean sucessoTransferencia = contaDaMarcela.transfere(300, contaDoPaulo);
 
         if (sucessoTransferencia) {
